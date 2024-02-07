@@ -66,13 +66,22 @@ a{
 }
 
 .section-2 a{
-    display: block;
+    display: inline;
     padding: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 0;
     width: 100px;
 }
 
+/* added footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(54, 50, 50);
+    text-align: center;
+ }
 /* media queres */
 @media(max-width:780px){
     .grid-2{
@@ -83,8 +92,10 @@ a{
         padding-top: 5rem;
     }
     .section-2{
+        margin-bottom: 15%;
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
+
 }
