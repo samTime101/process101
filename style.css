@@ -1,3 +1,5 @@
+/*Added on 2080-10-23*/
+/*Process101 - araniko college computer science club*/
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -11,16 +13,18 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #101214;
-    color: #7A7C80;
+    color: #fff;
 
 }
-
+/*changed headings to uppercase*/
 h2,.white{
     color: #fff;
+    text-transform: uppercase;
+
 }
 
 a{
-    color: #7A7C80;
+    color: #fff;
     text-decoration: none;
 }
 /* section 1 */
@@ -67,24 +71,6 @@ a{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
-}
-/* animations / utilities */
-.section-2 a:hover{
-    font-size: 1.3rem;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.section-1 a:hover{
-    color: #fff;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.white:hover{
-    position: relative;
-    padding-left: 10px;
 }
 
 /* media queres */
