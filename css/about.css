@@ -66,15 +66,6 @@ font-family: 'Orbitron', sans-serif;
   margin-bottom: 20px;
 }
 
-@keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-/* Clock icon */
-#clock {
-  animation: rotate 2s linear infinite;
-}
 
 
 @keyframes wave {
