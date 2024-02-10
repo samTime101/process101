@@ -71,7 +71,6 @@ a{
 }
 
 
-/* added footer */
 .footer {
   font-family: 'Orbitron', sans-serif;
   background-color: #333;
@@ -84,9 +83,17 @@ a{
 }
 
 /* media queres */
-@media only screen and (max-width:780px) {
-.container{
-  width: 100%;
-}
+@media(max-width:780px) {
+  .section-1 {
+    padding: 0;
+    padding-top: 5rem;
+  }
 
- }
+  .section-2 {
+    margin-bottom: 15%;
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+  }
+
+}
