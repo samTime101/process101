@@ -9,18 +9,30 @@
 html{
   scroll-behavior: smooth;
 }
+/* css for matrix rain */
 
 body {
-  /* max-width: 1080px; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/matrix.jpg);
-  background-size: cover;
-   color: #fff;
-  text-decoration: none;
-}
-.container{
-  margin: 0 auto;
-  width: 1080px;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  #c {
+    /* matrix rain le whole screen cover garne */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    /* zindex (background ma rakhne--stackoverflow) */
+    z-index: -1; 
+  }
+  
+  .container {
+    margin: 0 auto; 
+    max-width: 1080px; 
+    position: relative; 
+    /* matrix rain vanda mathi huney */
+    z-index: 1; 
+  }
+    
 
 h2{
     text-transform: uppercase;
