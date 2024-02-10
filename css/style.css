@@ -52,6 +52,7 @@ a{
   color: white;
   margin-top: 10vh;
   text-align: center;
+  width: 85%;
 }
 
 /* section 2 */
@@ -65,6 +66,7 @@ a{
 
 .section-3 {
     color: white;
+    width: 85%;
   font-family: "Gruppo", sans-serif;
   margin-top: 6%;
 }
