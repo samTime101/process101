@@ -30,9 +30,8 @@ h2{
   color: white;
 }
 
-li,a {
-  text-transform: uppercase;
-  text-decoration: none;
+a{
+    text-decoration: none;
 }
 
 .section-1{
@@ -50,20 +49,13 @@ li,a {
   font-family: "Michroma", sans-serif;
 }
 
-.section-2 #ab:hover{
-  color: #e0dcdc;
-}
 
 .section-3 {
   font-family: "Gruppo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 6%;
 }
 
-.section-3 a:hover{
-  color: #e0dcdc;
-}
+
 
 /* .section-3 ul li{
   list-style: decimal;
@@ -96,5 +88,3 @@ li,a {
  margin: 0 auto;
 }
  }
-
-
