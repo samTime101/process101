@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Major+Mono+Display&family=Michroma&display=swap');
@@ -28,7 +30,7 @@ font-family: 'Orbitron', sans-serif;
 }
 
 .page-wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/background.avif);
+  background-color:#0d0c0c;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 40px;
@@ -36,10 +38,11 @@ font-family: 'Orbitron', sans-serif;
 }
 
 .footer {
-  background-color: #333;
+  background-color:rgba(0,0,0,0.2);
   color: #fff;
   text-align: center;
   padding: 10px;
+  padding-bottom:5px;
   position: fixed;
   bottom: 0;
   left: 0;
