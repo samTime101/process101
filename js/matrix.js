@@ -22,9 +22,15 @@ var drops = [];
 for(var x = 0; x < columns; x++)
 	drops[x] = 1; 
 
+
 //drawing the characters
 function draw()
 {
+	if (c.height !== window.innerHeight || c.width !== window.innerWidth) {
+		c.height = window.innerHeight;
+		c.width = window.innerWidth;
+	}
+
 	//Black BG for the canvas
 	//translucent BG to show trail
 	ctx.fillStyle = "rgb(0, 0, 0)";
@@ -50,4 +56,4 @@ function draw()
 	}
 }
 
-setInterval(draw, 33);
+setInterval(draw, 35);
