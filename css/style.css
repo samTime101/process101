@@ -87,19 +87,15 @@ footer {
   right: 0;
 }
 
-@media(max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
+@media(max-width:780px) {
+/*   body{
+    overflow-x:hidden;
+  } */
   .section-1 {
     padding: 0;
     padding-top: 5rem;
   }
-  h2{
-    font-size: 15px;
-  }
+
   .section-2 {
     margin-bottom: 15%;
     padding-left: 1.5rem;
