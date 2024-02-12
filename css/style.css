@@ -44,7 +44,7 @@ h2 {
 }
 
 a {
-  font-size: larger;
+  font-size: large;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 .section-1 {
   font-family: 'Orbitron', sans-serif;
   color: white;
-  margin-top: 10vh;
+  margin-top: 8vh;
   text-align: center;
 }
 
@@ -82,17 +82,24 @@ footer {
   color: #fff;
   text-align: center;
   padding: 3px;
-  bottom: 0;
   left: 0;
   right: 0;
 }
 
-@media(max-width:780px) {
+#myidname{
+  float: right;
+}
+
+@media only screen and (max-width:780px) {
 /*   body{
     overflow-x:hidden;
   } */
+
+  #myidname{
+    float: left;
+  }
+
   .section-1 {
-    padding: 0;
     padding-top: 5rem;
   }
 
