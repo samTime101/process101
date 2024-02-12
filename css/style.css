@@ -89,17 +89,16 @@ footer {
   right: 0;
 }
 
-#myidname{
+/* #myidname{
   float: right;
-}
+} */
 
 @media only screen and (max-width:780px) {
 /*   body{
     overflow-x:hidden;
   } */
-/*WHO ADDED THIS ? I DONT KNOW , LOOKED AWFUL SO I REMOVED  */
-  /* 
-  #myidname{
+
+  /* #myidname{
     float: left;
   } */
 
