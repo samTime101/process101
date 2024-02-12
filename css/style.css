@@ -6,56 +6,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Major+Mono+Display&family=Michroma&display=swap');
 
-html{
+html {
   scroll-behavior: smooth;
 }
+
 /* css for matrix rain */
 
 body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  #c {
-    /* matrix rain le whole screen cover garne */
-    position: fixed; 
-    top: 0;
-    left: 0;
-    /* zindex (background ma rakhne--stackoverflow) */
-    z-index: -1; 
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto; 
-    max-width: 1080px; 
-    position: relative; 
-    /* matrix rain vanda mathi huney */
-    z-index: 1; 
-  }
-    
+  margin: 0;
+  padding: 0;
+}
 
-h2{
-    text-transform: uppercase;
+#c {
+  /* matrix rain le whole screen cover garne */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* zindex (background ma rakhne--stackoverflow) */
+  z-index: -1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  position: relative;
+  /* matrix rain vanda mathi huney */
+  z-index: 1;
+}
+
+
+h2 {
+  text-transform: uppercase;
 }
 
 .white {
   color: white;
 }
 
-a{
-    font-size: larger;
-    text-decoration: none;
+a {
+  font-size: larger;
+  text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #e0e0e0;
 }
 
-.section-1{
+.section-1 {
   font-family: 'Orbitron', sans-serif;
   color: white;
   margin-top: 10vh;
@@ -72,8 +69,8 @@ a:hover{
 
 
 .section-3 {
-    color: white;
-    width: 85%;
+  color: white;
+  width: 85%;
   font-family: "Gruppo", sans-serif;
   margin-top: 6%;
 }
@@ -88,4 +85,29 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/* media queres */
+/* media queries */
+@media(max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-2 {
+    width: 100%;
+
+  }
+
+  .section-3 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
