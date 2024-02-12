@@ -1,6 +1,3 @@
-let fireworks = []
-let clicked = false
-
 function timeReveal() {
     let countDownDate = new Date("Feb 22, 2024 15:37:25").getTime();
     let x = setInterval(function() {
@@ -26,21 +23,12 @@ function timeReveal() {
     }, 1000);
 
 }
-for (let f of fireworks) f.step()
-function mouseReleased() {
-    clicked = true
-    let target = {
-        x: mouseX,
-        y: mouseY
-    }
-    fireworks.push(new Firework(target))
-}
 document.getElementById("c").addEventListener('click', function(event) {
-    // Call timeReveal() immediately upon click
+   // PC
     timeReveal();
 });
 
 document.addEventListener('touchstart', (e) => {
-    // Call timeReveal() immediately upon touchstart
+    // MOBILE
     timeReveal();
 });
