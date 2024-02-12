@@ -31,3 +31,13 @@
     left: 0;
     right: 0;
   }
+/*https://stackoverflow.com/questions/6900124/how-to-make-certain-text-not-selectable-with-css  */
+  #demo{
+
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
