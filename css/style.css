@@ -90,18 +90,18 @@ footer {
   right: 0;
 }
 
-/* #myidname{
+#myidname{
   float: right;
-} */
+}
 
 @media only screen and (max-width:780px) {
-  /*   body{
+    body{
     overflow-x:hidden;
-  } */
+  }
 
-  /* #myidname{
-    float: left;
-  } */
+  #myidname{
+    float: none;
+  }
 
   .section-1 {
     padding-top: 5rem;
