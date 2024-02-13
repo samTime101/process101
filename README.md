@@ -10,7 +10,7 @@ Thanks go to these wonderful people
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/107102227?v=4" width="100px"/><br /><sub><b>SAXAT BHATTARAI</b></sub></a><br /><p>commits from saxatB</p></td>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/130172491?v=4" width="100px"/><br /><sub><b>HIRA NIROULA</b></sub></a><br /><p>commits from Hira Niroula</p></td>
   <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/105503443?v=4" width="100px"/><br /><sub><b>DIWAS DAHAL</b></sub></a><br /><p>commits from di-was</p></td>
-    <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/118323621?v=4" width="100px"/><br /><sub><b>Genius vai</b></sub></a><br /><p>commits from GENIYAMA</p></td>
+    <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/118323621?v=4" width="100px"/><br /><sub><b>GENIUS VAI-CLS:11</b></sub></a><br /><p>commits from GENIYAMA</p></td>
       </tr>
 </tbody>
 </table>
