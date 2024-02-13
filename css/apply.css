@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../images/background.png');
+}
+
+.ribbon {
+  background-color: #080808;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  height: 15px;
+  color: white;
+}
+
+.left-symbol {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.options {
+  display: flex;
+}
+
+.nav-link {
+  font-family: "Michroma", sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+  font-weight: bolder;
+  font-size: 17px;
+  transition: opacity 0.2s;
+  opacity: 0.5;
+}
+
+.nav-link:hover {
+  opacity: 3;
+}
+
+.central-area {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #101010;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.qns {
+  background-color: #101010;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="Email"],
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: grey;
+  font-size: 18px;
+  padding: 12px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.about {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-right: 20px;
+  color: white;
+}
+
+
+.maintitle {
+  font-size: 50px;
+  color: #1eff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="submit"] {
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #8cf028;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+  color: white;
+}
