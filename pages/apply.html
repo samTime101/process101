@@ -1,3 +1,6 @@
+<!-- REFACTORS FROM TIME101 -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,35 +8,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apply</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   <link rel="stylesheet" href="../css/apply.css">
 
 <body>
 
-  <div class="ribbon">
-
-    <div class="left-symbol">
-      <span>&lt;/&gt;</span>
+  <canvas id="c"></canvas>
+  <div class="maintitle">
+    <a href="../index.html"><img src="../images/logo.png" alt="Logo" id="logo"></a>
+    <div style="font-size: 20px;color: #ffffff;margin-top: 2vh;">
+      &lt;WHY NOT BE A MEMBER?/&gt;
     </div>
-
-    <div class="options">
-      <a href="../index.html" class="nav-link">Process101</a>
-      <a href="#" class="nav-link">Photos</a>
-      <a href="#" class="nav-link">Events</a>
-      <a href="#" class="nav-link">About</a>
-    </div>
-
   </div>
-
   <div class="central-area">
-    <div class="container">
-      <img src="../images/logo.png" class="logo" alt="Logo">
-    </div>
     <br>
-    <div class="maintitle">
-      <div class="qns" style="font-size: 50px;color: #1eff00;display: flex;flex-direction: column; align-items:center;">
-        BE A MEMBER
-      </div>
-    </div>
+
     <br>
     <br>
     <div class="form-container">
@@ -41,83 +33,73 @@
       <form>
 
         <div class="qns">
-
           <strong>Name:</strong><br><br>
           <input type="text" name="name" placeholder="Enter Your Name" required>
-
-        </div>
-
-        <br>
-
-        <div class="qns">
-
+          <br>
+          <!-- <div class="qns"> -->
           <strong>Email:</strong><br><br>
           <input type="email" name="email" placeholder="someone123@gmail.com" required>
 
-        </div>
-
-        <br>
-        <div class="qns">
-
-          <strong>Discord Id:</strong><br><br>
-          <i style="font-size: 12;">it is reccomended to join discord in order to get informed about club acitivities:
-            <a href="https://discord.gg/yyuNJWQ9SH">Discord link</a>
-          </i>
+          <!-- </div> -->
           <br>
           <br>
+          <!-- <div class="qns"> -->
+
+          <strong>Discord Id:</strong>
+          <p>If not , join <a href="https://discord.gg/HPWmk2cv" target="_blank"><i
+                class="fab fa-discord fa-1x white size"></i></a></p>
           <input type="text" name="name" placeholder="Enter Your Discord id">
 
-        </div>
-        <br>
-        <div class="qns">
+          <!-- </div> -->
+          <br>
+          <!-- <div class="qns"> -->
 
           <strong>Gender:</strong><br><br>
           <input type="radio" name="my gender" required> Male<br>
           <input type="radio" name="my gender" required> Female<br>
           <input type="radio" name="my gender" required> None of the above<br>
 
-        </div>
+          <!-- </div> -->
 
-        <br>
-
-        <div class="qns">
+          <br>
+          <!-- <div class="qns"> -->
 
           <strong>Class:</strong><br><br>
           <input type="radio" name="class" required> Class 11 <br>
           <input type="radio" name="class" required> Class 12<br>
           <input type="radio" name="class" required> SEE or Under SEE<br>
 
-        </div>
+          <!-- </div> -->
 
-        <br>
-        <div class="qns">
+          <br>
+          <!-- <div class="qns"> -->
 
           <strong>Shift:</strong><br>
           <input type="radio" name="class" required> Morning <br>
           <input type="radio" name="class" required> Day<br>
-        </div>
+          <!-- </div> -->
 
-        <br>
+          <br>
 
-        <div class="qns">
+          <!-- <div class="qns"> -->
 
-          <strong>Section:</strong><br>
+          <strong>Section:</strong><br><br>
           <input type="text" name="section" placeholder="Ex:Newton" required>
 
-        </div>
+          <!-- </div> -->
 
-        <br>
+          <br>
 
-        <div class="qns">
+          <!-- <div class="qns"> -->
 
           <strong>Phone Number:</strong><br><br>
           <input type="number" name="phone number" placeholder="9700000000">
 
-        </div>
+          <!-- </div> -->
 
-        <br>
+          <br>
 
-        <div class="qns">
+          <!-- <div class="qns"> -->
 
           <strong>Location:</strong><br><br>
           <i>Even If you are living in rented house or living temporarily in biratnagar . Mention Your Location
@@ -128,17 +110,15 @@
           <input type="radio" name="location" required>Outside Biratnagar<br>
           <input type="radio" name="location" required>Hosteller<br>
 
-        </div>
-        <br>
-        <div class="qns">
-
+          <!-- </div> -->
+          <br>
+          <!-- <div class="qns"> -->
           <strong>What intrested you in CS:</strong><br><br>
           <input type="text" name="Intrest" placeholder="Comment Your Reason(One line reason)" required>
+          <!-- </div> -->
 
-        </div>
-
-        <br>
-        <div class="qns">
+          <br>
+          <!-- <div class="qns"> -->
 
           <strong>How did you hear about us?</strong><br><br>
 
@@ -147,11 +127,12 @@
           <input type="radio" name="about" required>Self / Internet<br><br>
           <!--the style used is basically of qns -->
           <input type="radio" id="other" name="finding" value="other"> Other sources:
-          <textarea id="otherReason" name="otherReason" placeholder="Please specify"
-            style="width: 100%;margin-bottom: 15px;border: 1px solid white;border-radius: 4px;box-sizing: border-box;background-color: grey;font-size: 18px;padding: 12px;"></textarea><br>
-        </div>
-        <br><br><br>
-        <div class="qns">
+          <br>
+          <br>
+          <input type="text" name="otherReason" placeholder="Please specify" required><br>
+          <!-- </div> -->
+          <br><br><br>
+          <!-- <div class="qns"> -->
           <input type="checkbox" id="apply-checkbox" required>
           I agree to do my best to be available in the club events.
         </div>
@@ -162,34 +143,18 @@
   </div>
 
   <div style="font-size: 50px;color: #1eff00;display: flex;flex-direction: column; align-items:center;">
-    <input type="submit" value="Submit">
+    <input type="submit" value="SUBMIT">
     <br>
   </div>
 
   </form>
-  <div>
 
-    <footer>
-      <div class=" qns">
-        <p style="text-align: center; color: white;">
-
-          Made by: <a href="https://www.facebook.com/gaurav.biraji.5" style="color: white;">@Gaurav00069</a>,
-
-          <a href="https://www.facebook.com/sohan.bhandari.752/" style="color: white;">@Geniyama</a>
-
-          <br><br>
-
-          &copy; Computer Club of Arniko.
-
-        </p>
-
-      </div>
-
-    </footer>
-
-
-
-  </div>
-
+  <footer>
+    <p><a style="text-decoration: none;color: white;" class="white" href="https://plustwo.arnikofoundation.edu.np/home"
+        target="_blank">&copy; Arniko College
+        @Geniyama @Gaurav00069</a></p>
+  </footer>
+</body>
+<script src="../js/matrix.js"></script>
 
 </html>

@@ -23,12 +23,4 @@ function timeReveal() {
     }, 1000);
 
 }
-document.getElementById("c").addEventListener('click', function(event) {
-   // PC
-    timeReveal();
-});
-
-document.addEventListener('touchstart', (e) => {
-    // MOBILE
-    timeReveal();
-});
+timeReveal();
