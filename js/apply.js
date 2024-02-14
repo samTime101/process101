@@ -1,3 +1,4 @@
+// https://stackoverflow.com/questions/27600506/stop-page-from-redirecting-after-submitting-google-form-through-ajax
 $(document).ready(function () {
     $('#form').submit(function (e) {
         e.preventDefault();
