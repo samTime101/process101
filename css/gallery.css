@@ -7,49 +7,70 @@
     left: 0;
     /* zindex (background ma rakhne--stackoverflow) */
     z-index: -1;
-  }
+}
 
-        #container {
-            display: flex;
-            flex-direction: column;
-            background-size: cover;
-            
-        }
-        .item{
-            display: flex;
-            border-radius: 30px;
-            margin: auto;
-            max-width: 50%;
-            height: 60vh;
-        }
-        .content{
-            color: white;
-            font-family: 'Orbitron', sans-serif;
+#container {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
 
-        }
-        .name
-        {
-            margin-top: 5vh;
-            text-align: center;
-        }
-        .des{
-            padding:10px 10px 10px 10px ;
-            text-align: left;
-        }
-        .buttons{
-            margin-top: 10vh;
-            margin-bottom: 10vh;
-            bottom:30px;
-            text-align: center;
-        }
-        .buttons button{
-            cursor: pointer;
-            width:40px;
-            height:40px;
-            border: none;
-            border-radius: 10%;
-            transition: 0.5s;
-            background-color: #ffffffa3;
-        }.buttons button:hover{
-            background-color: #ffffff;
-        }
+}
+
+.item {
+    display: flex;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 50%;
+    height: 60vh;
+}
+
+.content {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.name {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.des {
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.buttons {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    bottom: 30px;
+    text-align: center;
+}
+
+.buttons button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10%;
+    transition: 0.5s;
+    background-color: #ffffffa3;
+}
+
+.buttons button:hover {
+    background-color: #ffffff;
+}
+
+
+@media only screen and (max-width:780px) {
+    body {
+        overflow: hidden;
+    }
+    .item {
+        display: flex;
+        border-radius: 30px;
+        margin: auto;
+        max-width: 80%;
+        height: 50vh;
+    }
+}
