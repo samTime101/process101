@@ -94,7 +94,8 @@ input[type="submit"]:hover {
   color: white;
   cursor: pointer;
 }
-/* 
+
+
 footer {
   font-family: 'Orbitron', sans-serif;
   background-color: #222;
@@ -103,7 +104,7 @@ footer {
   padding: 3px;
   left: 0;
   right: 0;
-} */
+}
 
 @media only screen and (max-width:780px) {
   form {

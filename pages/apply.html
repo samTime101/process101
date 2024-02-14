@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
     integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="../css/apply.css">
 
 <body>
@@ -20,7 +20,8 @@
   <div class="maintitle">
     <a href="../index.html"><img src="../images/logo.png" alt="Logo" id="logo"></a>
     <div style="font-size: 20px;color: #ffffff;margin-top: 2vh;">
-<h1>TEST FORM</h1>    </div>
+      <p>&lt; HEY , WHY NOT FILL THE FORM? /&gt</p>
+    </div>
   </div>
   <div class="central-area">
     <br>
@@ -28,126 +29,85 @@
     <br>
     <br>
     <div class="form-container">
-      <form 
-      method="POST" 
-      action="https://script.google.com/macros/s/AKfycbyp1ZF6vaxCE_Fl22vSDQ6GLQzudxSNSg2MtUgt40AZ2RW-z3VppHXSlibh407Ilk4sTg/exec"
-    >
-    <strong>Name:</strong><br><br>
-    <input type="text" name="name" placeholder="Enter Your Name" required>
-    <br>
-    <!-- <div class="qns"> -->
-    <strong>Email:</strong><br><br>
-    <input type="email" name="email" placeholder="someone123@gmail.com" required>
+      <form id="form" method="POST"
+        action="https://script.google.com/macros/s/AKfycbyp1ZF6vaxCE_Fl22vSDQ6GLQzudxSNSg2MtUgt40AZ2RW-z3VppHXSlibh407Ilk4sTg/exec">
+        <strong>Name:</strong><br><br>
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <br>
+        <strong>Email:</strong><br><br>
+        <input type="email" name="email" placeholder="someone123@gmail.com" required>
+        <br>
+        <br>
 
-    <!-- </div> -->
-    <br>
-    <br>
-    <!-- <div class="qns"> -->
+        <strong>Discord Id:</strong>
+        <p>If not , join <a href="https://discord.gg/HPWmk2cv" target="_blank"><i
+              class="fab fa-discord fa-1x white size"></i></a></p>
+        <input type="text" name="id" placeholder="Enter Your Discord id">
 
-    <strong>Discord Id:</strong>
-    <p>If not , join <a href="https://discord.gg/HPWmk2cv" target="_blank"><i
-          class="fab fa-discord fa-1x white size"></i></a></p>
-    <input type="text" name="id" placeholder="Enter Your Discord id">
+        <br>
 
-    <!-- </div> -->
-    <br>
-    <!-- <div class="qns"> -->
+        <strong>Gender:</strong><br><br>
+        <input type="radio" name="my gender" value="male" required> Male<br>
+        <input type="radio" name="my gender" value="female" required> Female<br>
+        <input type="radio" name="my gender" value="xakka" required> None of the above<br>
 
-    <strong>Gender:</strong><br><br>
-    <input type="radio" name="my gender" required> Male<br>
-    <input type="radio" name="my gender" required> Female<br>
-    <input type="radio" name="my gender" required> None of the above<br>
 
-    <!-- </div> -->
+        <br>
 
-    <br>
-    <!-- <div class="qns"> -->
+        <strong>Class:</strong><br><br>
+        <input type="radio" name="class" value="class11" required> Class 11 <br>
+        <input type="radio" name="class" value="class12" required> Class 12<br>
+        <input type="radio" name="class" value="underSEE" required> SEE or Under SEE<br>
 
-    <strong>Class:</strong><br><br>
-    <input type="radio" name="class" required> Class 11 <br>
-    <input type="radio" name="class" required> Class 12<br>
-    <input type="radio" name="class" required> SEE or Under SEE<br>
+        <br>
+        <strong>Shift:</strong><br>
+        <input type="radio" name="shift" value="morning" required> Morning <br>
+        <input type="radio" name="shift" value="day" required> Day<br>
 
-    <!-- </div> -->
+        <br>
 
-    <br>
-    <!-- <div class="qns"> -->
 
-    <strong>Shift:</strong><br>
-    <input type="radio" name="shift" required> Morning <br>
-    <input type="radio" name="shift" required> Day<br>
-    <!-- </div> -->
+        <strong>Section:</strong><br><br>
+        <input type="text" name="section" placeholder="Ex:Newton" required>
 
-    <br>
 
-    <!-- <div class="qns"> -->
+        <br>
 
-    <strong>Section:</strong><br><br>
-    <input type="text" name="section" placeholder="Ex:Newton" required>
 
-    <!-- </div> -->
+        <strong>Phone Number:</strong><br><br>
+        <input type="number" name="phn" placeholder="9700000000">
+        <br>
 
-    <br>
 
-    <!-- <div class="qns"> -->
+        <strong>Location:</strong><br><br>
+        <input type="radio" name="location" value="inside Biratnagar" required>Inside Biratnagar<br>
+        <input type="radio" name="location" value="Outside Biratnagar" required>Outside Biratnagar<br>
+        <input type="radio" name="location" value="Hosteller" required>Hosteller<br>
 
-    <strong>Phone Number:</strong><br><br>
-    <input type="number" name="phonenumber" placeholder="9700000000">
-
-    <!-- </div> -->
-
+        <br>
+        <strong>What intrested you in CS:</strong><br><br>
+        <input type="text" name="Interest" placeholder="Interest?" required>
+        <br><br><br>
+        <input type="checkbox" id="apply-checkbox" name="agree" required>
+        I agree to do my best to be available in the club events.
+    </div>
     <br>
 
-    <!-- <div class="qns"> -->
-
-    <strong>Location:</strong><br><br>
-    <i>Even If you are living in rented house or living temporarily in biratnagar . Mention Your Location
-      as Inside Biratnagar:</i>
-    <br>
-    <br>
-    <input type="radio" name="location" required>Inside Biratnagar<br>
-    <input type="radio" name="location" required>Outside Biratnagar<br>
-    <input type="radio" name="location" required>Hosteller<br>
-
-    <!-- </div> -->
-    <br>
-    <!-- <div class="qns"> -->
-    <strong>What intrested you in CS:</strong><br><br>
-    <input type="text" name="Intrest" placeholder="Comment Your Reason(One line reason)" required>
-    <!-- </div> -->
-
-    <br>
-    <!-- <div class="qns"> -->
-
-    <strong>How did you hear about us?</strong><br><br>
-
-    <input type="radio" name="about" required>Recommended by teachers.<br>
-    <input type="radio" name="about" required>Via friends.<br>
-    <input type="radio" name="about" required>Self / Internet<br><br>
-    <!--the style used is basically of qns -->
-    <input type="radio" id="other" name="finding" value="other"> Other sources:
-    <br>
-    <br>
-    <input type="text" name="otherReason" placeholder="Please specify"><br>
-    <!-- </div> -->
-    <br><br><br>
-    <!-- <div class="qns"> -->
-    <input type="checkbox" id="apply-checkbox"  name="agree" required>
-    I agree to do my best to be available in the club events.
   </div>
-  <br>
 
-</div>
+  </div>
 
-</div>
-
-<div style="font-size: 50px;color: #1eff00;display: flex;flex-direction: column; align-items:center;">
-<input type="submit" value="SUBMIT">
-<br>
-</div>
-    </form>
-
+  <div style="font-size: 50px;color: #1eff00;display: flex;flex-direction: column; align-items:center;">
+    <input type="submit" value="SUBMIT">
+    <br>
+  </div>
+  </form>
+  <footer>
+    <p><a  style="text-decoration: none;" class="white" href="https://plustwo.arnikofoundation.edu.np/home" target="_blank">&copy; Arniko College
+        @Geniyama @Gaurav @SamipTime101</a></p>
+  </footer>
 </body>
+<script src="../js/apply.js"></script>
 <script src="../js/matrix.js"></script>
 
 </html>
