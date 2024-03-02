@@ -26,4 +26,4 @@ function scrollToElement(elementId) {
             top: targetScrollPosition,
             behavior: 'smooth'
         });
-    }, delay);
+    }, delay)}
