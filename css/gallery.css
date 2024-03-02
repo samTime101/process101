@@ -9,12 +9,11 @@
     z-index: -1;
 }
 
-.maintitle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5vh;
+i {
+    color: white;
+    padding: 0.38em 0 0 8px;
   }
+
   #logo {
     width: 150px;
     height: 150px;
@@ -80,18 +79,22 @@
     background-color: #ffffff;
 }
 
+#myidname{
+    float: right;
+}
+
 
 @media only screen and (max-width:780px) {
-    body {
-        overflow: hidden;
-    }
-
     .item {
         display: flex;
         border-radius: 30px;
         margin: auto;
         max-width: 80%;
         height: 50vh;
+    }
+
+    #myidname{
+        float: none;
     }
 }
 

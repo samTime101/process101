@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHOTOS | ARNIKO COMPUTER CLUB</title>
     <link rel="stylesheet" href="../../css/gallery.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
 
@@ -16,9 +17,37 @@
 <body>
   <canvas id="c"> </canvas>
   <div class="maintitle">
-    <a href="../../index.html"><img src="../../images/logo.png" alt="Logo" id="logo"></a>
+    <div class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myidname">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <span class="navbar-brand">PROCESS101</span> -->
+          <i class="fas fa-code fa-2x white"></i>
+        </div>
+        <div class="navbar-collapse collapse" id="myidname">
+          <ul class="nav navbar-nav" style="  font-family: 'Orbitron', sans-serif;">
+            <li>
+            </li>
+            <li>
+              <a href="../../index.html">Process101</a>
+            </li>
+            <li>
+              <a href="./Hackathon080alpha.html">Photos</a>
+            </li>
+            <li>
+              <a href="../apply.html">Apply</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
   </div>
-  <h1 style="text-align: center;font-family: 'Orbitron', sans-serif;color: white;">SOME MEMORIES</h1>
+  <h1 style="text-align: center;font-family: 'Orbitron', sans-serif;color: white; padding: 2rem;">SOME MEMORIES</h1>
 <div id="container">
     <div class="item" style="background-image: url(../../images/class.jpg);">
         <div class="content" >
@@ -50,4 +79,6 @@
 </body>
 <script src="../../js/matrix.js"></script>
 <script src="../../js/gallery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </html>
